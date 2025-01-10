@@ -8,12 +8,15 @@ const PORT = 3000;
 // Cấu hình CORS
 app.use(cors());
 
+// Middleware để xử lý JSON trong request body
+app.use(express.json());
+
 // Phục vụ các file tĩnh trong thư mục 'public'
 app.use(express.static(path.join(__dirname, 'public')));
 
 // API lưu dữ liệu vào file JSON
 app.post('/api/save', (req, res) => {
-    const data = req.body;
+    const data = req.body;  // Lấy dữ liệu từ body của request
     fs.writeFile(path.join(__dirname, 'data.json'), JSON.stringify(data, null, 4), (err) => {
         if (err) {
             return res.status(500).json({ message: 'Lỗi lưu dữ liệu', error: err });
