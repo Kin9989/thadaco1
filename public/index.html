@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lucky Square</title>
+  <link rel="stylesheet" href="style_lw.css">
+</head>
+<body>
+  <div class="container">
+    <h1 class="title_h1">Ô vuông may mắn</h1>
+    <div class="content">
+      <!-- Bên trái -->
+      <div class="left">
+        <h2>Kết quả quay:</h2>
+  
+        <div id="logContainer" style="margin-top: 20px; border: 1px solid #ccc; padding: 10px;">
+         
+        </div>
+        
+        <table>
+          <tbody></tbody>
+        </table>
+      </div>
+      <!-- Bên phải -->
+      <div class="right" id="squaresContainer">
+        <!-- Các ô vuông sẽ được render ở đây -->
+      </div>
+    </div>
+    <!-- Nút Xoay -->
+    <div class="button-container">
+      <button class="button-27" onclick="spinWheel()">Xoay</button>
+    </div>
+
+ <!-- Modal Popup -->
+ <div id="popup" class="popup">
+    <div class="popup-content">
+        <h2>🎉 Chúc mừng! 🎉</h2>
+        <p id="popup-message"></p>
+        <button id="close-popup">Đóng</button>
+    </div>
+</div>
+
+
+
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
