@@ -1,4 +1,4 @@
-
+[
     { "id": 1, "value": "Bộ Âu Inox", "count": 5 },
     { "id": 2, "value": "Hộp Nạo", "count": 5 },
     { "id": 3, "value": "Bộ Dao", "count": 8 },
@@ -8,5 +8,5 @@
     { "id": 7, "value": "Máy Hút Đệm", "count": 1 },
     { "id": 8, "value": "Nồi Hấp Gà", "count": 1 },
     { "id": 9, "value": "Chúc Bạn May Mắn Lần Sau", "count": 4 }
-
+  ]
   
