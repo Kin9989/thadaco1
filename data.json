@@ -1,5 +1,12 @@
-{
-    "id": 1,
-    "value": "1",
-    "count": 1
-}
+
+    { "id": 1, "value": "Bộ Âu Inox", "count": 5 },
+    { "id": 2, "value": "Hộp Nạo", "count": 5 },
+    { "id": 3, "value": "Bộ Dao", "count": 8 },
+    { "id": 4, "value": "Máy Xay Thịt", "count": 2 },
+    { "id": 5, "value": "Khay Mứt Tết Bằng Gỗ", "count": 2 },
+    { "id": 6, "value": "Thớt", "count": 2 },
+    { "id": 7, "value": "Máy Hút Đệm", "count": 1 },
+    { "id": 8, "value": "Nồi Hấp Gà", "count": 1 },
+    { "id": 9, "value": "Chúc Bạn May Mắn Lần Sau", "count": 4 }
+
+  
