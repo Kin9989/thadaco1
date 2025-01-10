@@ -7,7 +7,7 @@ let items = [];
 
 // Hàm lấy dữ liệu từ MongoDB và hiển thị
 function loadItemsFromDatabase() {
-    fetch('http://localhost:3000/api/get_data')
+    fetch('https://thadaco1.onrender.com/api/get_data')
         .then(response => response.json())
         .then(data => {
             items = data.items || [];
@@ -70,7 +70,7 @@ saveButton.addEventListener("click", () => {
         };
     });
 
-    fetch('http://localhost:3000/api/save', {
+    fetch('https://thadaco1.onrender.com/api/save', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json',

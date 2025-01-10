@@ -18,7 +18,7 @@ closePopupButton.addEventListener("click", function () {
 });
 
 // Lấy dữ liệu từ API (MongoDB)
-fetch('http://localhost:3000/api/get_data')  // Đảm bảo backend của bạn có API này
+fetch('https://thadaco1.onrender.com/api/get_data')  // Đảm bảo backend của bạn có API này
     .then(response => response.json())
     .then(data => {
         let items = data.items || [];  // Gán dữ liệu items từ API
